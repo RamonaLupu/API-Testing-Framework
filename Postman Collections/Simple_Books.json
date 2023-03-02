@@ -394,6 +394,37 @@
 					"response": []
 				},
 				{
+					"name": "Get Single Book - ID = 3 Copy",
+					"id": "8b55ace4-3351-4c92-a614-9660655f845d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://simple-books-api.glitch.me/books/:bookId",
+							"protocol": "https",
+							"host": [
+								"simple-books-api",
+								"glitch",
+								"me"
+							],
+							"path": [
+								"books",
+								":bookId"
+							],
+							"variable": [
+								{
+									"key": "bookId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Get Single Book - ID = 6 copy",
 					"id": "57ee634d-5411-4857-9133-1ed9e68dbe14",
 					"protocolProfileBehavior": {
