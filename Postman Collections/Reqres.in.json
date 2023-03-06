@@ -9,6 +9,11 @@
 			"name": "Homework - mandatory",
 			"item": [
 				{
+					"name": "New Folder",
+					"item": [],
+					"id": "1aeee8a1-065f-403e-ab97-3a36e5724cb2"
+				},
+				{
 					"name": "Get all users",
 					"id": "092c85fc-30a7-40c2-b714-ed63563abb9f",
 					"protocolProfileBehavior": {
