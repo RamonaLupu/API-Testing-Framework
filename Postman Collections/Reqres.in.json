@@ -10,7 +10,131 @@
 			"item": [
 				{
 					"name": "Login",
-					"item": [],
+					"item": [
+						{
+							"name": "Successful login",
+							"id": "a6a79e37-7fff-415f-b8c1-cc762b944efa",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://reqres.in/api/login",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"login"
+									],
+									"query": [
+										{
+											"key": null,
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Unsuccessful login1",
+							"id": "d87b2745-4791-46e1-ad29-9b85001caba3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://reqres.in/api/login",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"login"
+									],
+									"query": [
+										{
+											"key": null,
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Unsuccessful login2",
+							"id": "a2d955a9-26ce-4bfc-9400-6a9f476e54fa",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://reqres.in/api/login",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"login"
+									],
+									"query": [
+										{
+											"key": null,
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "1aeee8a1-065f-403e-ab97-3a36e5724cb2"
 				},
 				{
@@ -189,129 +313,6 @@
 						}
 					},
 					"response": []
-				},
-				{
-					"name": "Successful login",
-					"id": "a6a79e37-7fff-415f-b8c1-cc762b944efa",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://reqres.in/api/login",
-							"protocol": "https",
-							"host": [
-								"reqres",
-								"in"
-							],
-							"path": [
-								"api",
-								"login"
-							],
-							"query": [
-								{
-									"key": null,
-									"value": "",
-									"type": "text",
-									"disabled": true
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Unsuccessful login1",
-					"id": "d87b2745-4791-46e1-ad29-9b85001caba3",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://reqres.in/api/login",
-							"protocol": "https",
-							"host": [
-								"reqres",
-								"in"
-							],
-							"path": [
-								"api",
-								"login"
-							],
-							"query": [
-								{
-									"key": null,
-									"value": "",
-									"type": "text",
-									"disabled": true
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Unsuccessful login2",
-					"id": "a2d955a9-26ce-4bfc-9400-6a9f476e54fa",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://reqres.in/api/login",
-							"protocol": "https",
-							"host": [
-								"reqres",
-								"in"
-							],
-							"path": [
-								"api",
-								"login"
-							],
-							"query": [
-								{
-									"key": null,
-									"value": "",
-									"type": "text",
-									"disabled": true
-								}
-							]
-						}
-					},
-					"response": []
 				}
 			],
 			"id": "e1fd714c-6e32-4a80-847c-fbb9d4650f8e"
@@ -319,6 +320,11 @@
 		{
 			"name": "Additional checks",
 			"item": [
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "32b86185-2f80-49d6-ae48-3e11a958d503"
+				},
 				{
 					"name": "Get list 'resource'",
 					"id": "2c842480-602a-4922-810c-2ccba2dd42db",
