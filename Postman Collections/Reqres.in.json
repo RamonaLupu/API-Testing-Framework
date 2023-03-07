@@ -313,6 +313,42 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "params ca url params",
+					"id": "501c858c-176c-4491-8856-16dc4dc5edbc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?name=andy&job=trainer",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "andy",
+									"type": "text"
+								},
+								{
+									"key": "job",
+									"value": "trainer",
+									"type": "text"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "e1fd714c-6e32-4a80-847c-fbb9d4650f8e"
@@ -367,7 +403,52 @@
 				},
 				{
 					"name": "Register",
-					"item": [],
+					"item": [
+						{
+							"name": "Register - unsuccessful",
+							"id": "eab561a1-6f28-43df-9659-bd4d17690566",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"sydney@fife\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://reqres.in/api/register"
+							},
+							"response": []
+						},
+						{
+							"name": "Register - successful",
+							"id": "a4aa48f3-ecba-4fd4-a97f-ee2ae34a18b0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://reqres.in/api/register"
+							},
+							"response": []
+						}
+					],
 					"id": "d8ed6f33-9be9-4afd-a50d-14291bea206e"
 				},
 				{
@@ -389,50 +470,6 @@
 							}
 						},
 						"url": "https://reqres.in/api/users/2"
-					},
-					"response": []
-				},
-				{
-					"name": "Register - successful",
-					"id": "a4aa48f3-ecba-4fd4-a97f-ee2ae34a18b0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "https://reqres.in/api/register"
-					},
-					"response": []
-				},
-				{
-					"name": "Register - unsuccessful",
-					"id": "eab561a1-6f28-43df-9659-bd4d17690566",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"sydney@fife\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "https://reqres.in/api/register"
 					},
 					"response": []
 				},
